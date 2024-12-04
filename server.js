@@ -17,7 +17,7 @@ const app=express();
 
      // Or, specify the allowed origin explicitly
 app.use(cors({
-        origin: 'http://localhost:3000' 
+        origin: 'https://mystore-12.netlify.app/' 
 }));
 
 app.use(express.json()) //this middleware allows us to accept JSON data in the body
